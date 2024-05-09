@@ -1,0 +1,49 @@
+/* se modifica el color de fondo y color de letra*/
+nav {background-color: seagreen;
+    color:black;
+
+}
+
+/*posiciona el menu en el centro*/
+.menu {
+   display: flex; 
+   align-items: center;
+}
+
+/*desaparecen los puntos que tenian*/
+.menu li {
+    width: 15%;
+    list-style: none;
+    
+}
+
+/*cambio de color de letra y tipo de letra*/
+.menu a {
+    text-decoration:none;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size:large;
+}
+
+/*separa el menu*/
+.logo{
+    flex-grow:10;
+
+}
+
+/*para modificar el tamaño de la imagen*/
+.logo img {
+    width: 20%;
+    /*1 primer  elem.arriba,derecha, abajo. izquierda
+    top right bottom left*/
+    padding: 2% 2% 2%;
+}
+
+/* estilo al pasar por encima de la letra y de la linea y tamaño de linea*/
+.menu a:hover{
+    background-color: white;
+    color: black;
+    border: 5px white solid;
+    border-radius: 5px;
+
+}

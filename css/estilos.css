@@ -1,0 +1,142 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+/*para hacer margen al contenedor padre con las imagenes(pagina)*/
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    background-color: lightslategrey;
+    }
+
+/*modificando titulos(centrado) de imagenes*/
+h1,
+h2 {
+    text-align: center;
+    font-family:cursive
+}
+
+/*pone las imagenes orizontales y debajo segun espacio*/
+.section-flex{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+/* margenes, bordes,alto y texto de las imagines*/
+.character{
+    width: 25%;
+    margin: 3%;
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 10px;
+    background-color:grey;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(40, 89, 226, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(40, 89, 226, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(40, 89, 226, 0.75);
+   
+}
+
+/*cambia de tamaño las imagenes y bordes*/
+.characterimg{
+    width: 80%;
+    border-radius: 3%;
+    object-fit: cover;
+
+}
+
+footer{
+    background-color: seagreen;
+    color:black;
+    text-align:center;
+    padding: 2%;
+    /*padding: 2%;
+    margin: 10px;
+    margin-bottom: 5%;*/
+}
+
+/*espacios de margen de la letra de las imagenes entre la letra y borde rojo*/
+.info-character {
+    text-align: justify;
+    margin: 2%;
+}
+
+h2{
+    font-weight: bold;
+}
+
+#img1{
+    width: 250px;
+    height: 300px;
+}
+#img2{
+    width: 250px;
+    height: 300px;
+}
+#img3{
+    width: 250px;
+    height: 300px;
+
+}
+
+#img4{
+    width: 250px;
+    height: 300px;
+}
+
+#img5{
+    width: 250px;
+    height: 300px;
+}
+#img6 {
+    width: 250px;
+    height: 300px;
+}
+#img7{
+    width: 250px;
+    height: 300px;
+}
+#img8{
+    width: 250px;
+    height: 300px;
+}
+#img9{
+    width: 250px;
+    height: 300px;
+
+}
+#img10{
+    width: 250px;
+    height: 300px;
+}
+#img11{
+    width: 250px;
+    height: 300px;
+}
+#img12{
+    width: 250px;
+    height: 300px;
+}
+#img13{
+    width: 250px;
+    height: 300px;
+}
+#img14{
+    width: 250px;
+    height: 300px;
+}
+.video{
+    width: 25%;
+    margin: 3%;
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 10px;
+    background-color:grey;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(40, 89, 226, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(40, 89, 226, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(40, 89, 226, 0.75);
+}
